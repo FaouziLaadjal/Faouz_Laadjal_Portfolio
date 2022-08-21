@@ -3,11 +3,15 @@ export const GlobalStyles = createGlobalStyle`
 *{box-sizing:border-box;}
 body{
 background:${({ theme }) => theme.colors.body};
-color:hsl(192,100%,9%);
-font-family:"roboto",sans-serif;
-font-size:16px;
+color:"rgb(0, 8, 31)";
+font-family:"ubuntu",sans-serif;
+font-size:1em;
 margin:0;
 padding:0;
 }
-
+root{
+    --PrimaryColor: "#00B388",
+    --SecondaryColor: "#eefdf6",
+    --Light:"#0000008a",
+}
 `;

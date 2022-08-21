@@ -4,9 +4,12 @@ import { Container } from "./Components/Styles/Conatiner.styled";
 import Header from "./Components/Header";
 const theme = {
   colors: {
-    header: "#ebfbff",
+    header: "#eefdf6",
     body: "#fff",
-    footer: "#003333",
+    PrimaryColor: "#00B388",
+    SecondaryColor: "#eefdf6",
+    Light:"#0000008a",
+    footer: "#00081f",
   },
   mobile: "768px",
 };
