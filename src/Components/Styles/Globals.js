@@ -9,9 +9,4 @@ font-size:1em;
 margin:0;
 padding:0;
 }
-root{
-    --PrimaryColor: "#00B388",
-    --SecondaryColor: "#eefdf6",
-    --Light:"#0000008a",
-}
 `;

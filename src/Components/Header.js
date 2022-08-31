@@ -67,7 +67,7 @@ export default function Header() {
         </Nav>
         <Flex>
           <div>
-            <span>Je Suis Un </span>
+            <span className="test">Je Suis Un </span>
             <span ref={el}></span>
             <p>
               Je me présente Faouzi 24 un étudiant hautement motivé et passionné

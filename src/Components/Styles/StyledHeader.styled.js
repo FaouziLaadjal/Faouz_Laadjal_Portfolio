@@ -10,6 +10,10 @@ export const StyleHeader = styled.header`
     color: ${({ theme }) => theme.colors.Light};
     line-height: 1.6em;
   }
+  .test {
+    color: ${({ theme }) => theme.colors.Light};
+    font-weight: bold;
+  }
   @media (max-width: ${({ theme }) => theme.mobile}) {
     height: 100%;
   }

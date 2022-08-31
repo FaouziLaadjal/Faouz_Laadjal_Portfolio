@@ -12,7 +12,7 @@ export const Flex = styled.div`
     gap: 20px;
   }
   span {
-    font-size: 3em;
+    font-size: 1.96em;
     color: ${({ theme }) => theme.colors.PrimaryColor};
   }
 `;
