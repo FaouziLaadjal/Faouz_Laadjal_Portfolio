@@ -1,6 +1,7 @@
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { StyledSocial } from "./Styles/Social.styled";
 export default function SocialIcons() {
+  
   return (
     <StyledSocial>
       <li>

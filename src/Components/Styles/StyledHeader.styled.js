@@ -4,12 +4,14 @@ export const StyleHeader = styled.header`
   padding: 5px 0;
   height: 100vh;
   h1 {
-    line-height: 0.5em;
     font-weight: 400;
   }
   p {
     color: ${({ theme }) => theme.colors.Light};
     line-height: 1.6em;
+  }
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    height: 100%;
   }
 `;
 export const Nav = styled.nav`
@@ -37,11 +39,15 @@ export const Links = styled.ul`
   a:hover {
     color: ${({ theme }) => theme.colors.PrimaryColor};
   }
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    display: none;
+  }
 `;
 export const Image = styled.img`
   width: 450px;
   margin-left: 40px;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 40px 0 30px 0px;
+    display: none;
   }
 `;
