@@ -1,10 +1,12 @@
 import styled from "styled-components";
-export const CardFlex = styled.div`
+export const SkillsFlex = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
-  gap: 20px;
+  justify-content: center;
+  gap: 16px;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+    width: 100%;
+    gap: 0px;
   }
 `;

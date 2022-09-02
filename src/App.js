@@ -2,9 +2,8 @@ import { GlobalStyles } from "./Components/Styles/Globals";
 import { ThemeProvider } from "styled-components";
 import { Container } from "./Components/Styles/Conatiner.styled";
 import Header from "./Components/Header";
-import projects from "./Projects";
-import Card from "./Components/Card";
-import { CardFlex } from "./Components/Styles/CardFlex.styled";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
 const theme = {
   colors: {
     header: "#eefdf6",
@@ -23,11 +22,12 @@ function App() {
         <GlobalStyles />
         <Header />
         <Container>
-          <CardFlex>
-            {projects.map((item, index) => (
-              <Card key={index} item={item} />
-            ))}
-          </CardFlex>
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="skills">
+            <Skills />
+          </section>
         </Container>
       </>
     </ThemeProvider>

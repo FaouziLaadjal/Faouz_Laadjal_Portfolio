@@ -22,9 +22,9 @@ export default function Header() {
   useEffect(() => {
     const options = {
       strings: [
-        "Développeur Front End.",
-        "Programmeur PLC SIEMENS.",
-        "HMI / SCADA Designer.",
+        "Front End Developer.",
+        "PLC SIEMENS Programmer.",
+        "HMI and SCADA Designer.",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -57,7 +57,7 @@ export default function Header() {
               <a href="#">SKILLS</a>
             </li>
             <li>
-              <a href="#">PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
             <li>
               <a href="#">CONTACT</a>
@@ -67,14 +67,13 @@ export default function Header() {
         </Nav>
         <Flex>
           <div>
-            <span className="test">Je Suis Un </span>
+            <span className="test">I'am a </span>
             <span ref={el}></span>
             <p>
-              Je me présente Faouzi 24 un étudiant hautement motivé et passionné
-              par l'automatisation des process et développeur Web Front End sur
-              mon temps libre. Cherche toujours à acquérir de nouvelles
-              connaissances et à développer mes compétences , Forte envie et
-              grande détermination de réussir dans mon domaine de travail.
+              A highly motivated and passionate Industry & Process Automation
+              student.Front-End Web developer on my free time. always seeks to
+              acquire new knowledge and develop my skills , Strong desire and
+              big determination to succeed in my field of work.
             </p>
             <Flex>
               <Button bg={colors.Primary}>Contact Me</Button>
