@@ -71,9 +71,9 @@ export default function Header() {
             <span ref={el}></span>
             <p>
               A highly motivated and passionate Industry & Process Automation
-              student.Front-End Web developer on my free time. always seeks to
-              acquire new knowledge and develop my skills , Strong desire and
-              big determination to succeed in my field of work.
+              student. Front-End Web developer on my free time. always seeks to
+              acquire new knowledge and develop my skills, Strong desire and big
+              determination to succeed in my field of work.
             </p>
             <Flex>
               <Button bg={colors.Primary}>Contact Me</Button>

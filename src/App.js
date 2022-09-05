@@ -5,6 +5,8 @@ import Header from "./Components/Header/Header";
 import Qualifications from "./Components/Qualifications/Qualifications";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
+import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 const theme = {
   colors: {
     header: "#eefdf6",
@@ -32,7 +34,11 @@ function App() {
           <section id="skills">
             <Skills />
           </section>
+          <section id="contact">
+            <Contact />
+          </section>
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   );
