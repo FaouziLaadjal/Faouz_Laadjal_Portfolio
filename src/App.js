@@ -1,9 +1,10 @@
-import { GlobalStyles } from "./Components/Styles/Globals";
+import { GlobalStyles } from "./Components/General/Globals";
 import { ThemeProvider } from "styled-components";
-import { Container } from "./Components/Styles/Conatiner.styled";
-import Header from "./Components/Header";
-import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
+import { Container } from "./Components/General/Styles/Conatiner.styled";
+import Header from "./Components/Header/Header";
+import Qualifications from "./Components/Qualifications/Qualifications";
+import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
 const theme = {
   colors: {
     header: "#eefdf6",
@@ -22,6 +23,9 @@ function App() {
         <GlobalStyles />
         <Header />
         <Container>
+          <section id="qualifications">
+            <Qualifications />
+          </section>
           <section id="projects">
             <Projects />
           </section>

@@ -10,5 +10,6 @@ font-size:1em;
 margin:0;
 padding:0;
 }
-
+h1{text-align:center}
+section{margin-top:48px}
 `;

@@ -1,6 +1,6 @@
 import { StyledCard } from "./Styles/StyledCard.styled";
-import { Button } from "./Styles/Button.styled";
-import colors from "./Colors";
+import { Button } from "../General/Styles/Button.styled";
+import colors from "../../data/Colors";
 export default function ProjectsCard({
   item: { id, title, body, image, link },
 }) {

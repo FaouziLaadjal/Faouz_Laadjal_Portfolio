@@ -5,11 +5,11 @@ import {
   Links,
   Image,
 } from "./Styles/StyledHeader.styled";
-import colors from "./Colors";
-import { Container } from "./Styles/Conatiner.styled";
-import { Flex } from "./Styles/Flex.styled";
-import { Button } from "./Styles/Button.styled";
-import SocialIcons from "./SocialIcons";
+import colors from "../../data/Colors";
+import { Container } from "../General/Styles/Conatiner.styled";
+import { Flex } from "../General/Styles/Flex.styled";
+import { Button } from "../General/Styles/Button.styled";
+import SocialIcons from "../General/SocialIcons";
 import MenuButton from "./MenuButton";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
@@ -54,7 +54,7 @@ export default function Header() {
               <a href="#">ABOUT ME</a>
             </li>
             <li>
-              <a href="#">SKILLS</a>
+              <a href="#skills">SKILLS</a>
             </li>
             <li>
               <a href="#projects">PROJECTS</a>

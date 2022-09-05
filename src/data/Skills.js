@@ -6,7 +6,7 @@ export const Frontskills = {
 };
 export const Autoskills = {
   id: 1,
-  title: "PLC Programmer",
+  title: "Automation",
   Languages: ["C", "C++", "Grafcet", "Ladder", "STL", "SCL"],
   Software: [
     "Tia Portal",
