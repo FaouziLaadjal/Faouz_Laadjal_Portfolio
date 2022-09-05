@@ -1,9 +1,8 @@
-import { StyledQualifications } from "./Styles/StyledQualifications.styled";
+import QualificationsCard from "./QualificationsCard";
 export default function Qualifications() {
-  return (
-    <>
+return (
+<>
       <h1>Summary of my Qualifications & experience</h1>
-      <StyledQualifications></StyledQualifications>
     </>
-  );
+ );
 }
