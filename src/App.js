@@ -1,4 +1,4 @@
-import { GlobalStyles } from "./Components/General/Globals";
+import "./App.css";
 import { ThemeProvider } from "styled-components";
 import { Container } from "./Components/General/Styles/Conatiner.styled";
 import Header from "./Components/Header/Header";
@@ -22,7 +22,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <GlobalStyles />
         <Header />
         <Container>
           <section id="qualifications">
