@@ -11,6 +11,7 @@ export const StyledForm = styled.form`
   background-color: #fff;
   .flex {
     display: grid;
+    grid-template-columns: auto auto;
     gap: 16px;
   }
 
@@ -37,5 +38,9 @@ export const StyledForm = styled.form`
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
+    .flex {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;

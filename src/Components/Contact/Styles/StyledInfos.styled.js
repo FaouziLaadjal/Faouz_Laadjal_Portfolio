@@ -29,6 +29,10 @@ export const StyledInfos = styled.div`
     margin: 0;
     padding: 0;
   }
+  .text {
+    max-width: 45ch;
+    line-height: 1.5em;
+  }
   @media (max-width: ${({ theme }) => theme.mobile}) {
     align-items: center;
     text-align: center;

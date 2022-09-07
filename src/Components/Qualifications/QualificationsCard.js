@@ -1,10 +1,8 @@
-import { Education } from "./Styles/Education.styled";
-import { Experience } from "./Styles/Experience.styled";
+import EducationCard from "./Education";
 export default function QualificationsCard() {
   return (
     <>
-      <Education />
-      <Experience />
+      <EducationCard />
     </>
   );
 }

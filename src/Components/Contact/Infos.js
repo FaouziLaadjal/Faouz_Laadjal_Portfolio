@@ -5,7 +5,7 @@ export default function Infos() {
   return (
     <StyledInfos>
       <h2>Contact me</h2>
-      <p>
+      <p className="text">
         Feel free to contact me in one of the following social media platforms.
       </p>
       <ul>

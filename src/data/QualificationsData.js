@@ -41,17 +41,17 @@ export const education = [
   {
     id: 1,
     title: "Masters in Industry & Process Automation",
-    date: "September 2022- Present",
-    place: "Houari Boumediene University of Science and Technology, Algiers.",
+    date: "September 2022 - Present",
+    place: "USTHB, Algiers.",
     discription: "",
   },
   {
     id: 2,
     title: "Licence in Automation",
-    date: "September2018- July 2021",
-    place: "Houari Boumediene University of Science and Technology, Algiers.",
+    date: "September 2018 - July 2021",
+    place: "USTHB, Algiers.",
     discription:
-      "-Virtual control of the operative parts of the industrial systems of the software 'ITS PLC' ",
+      "Virtual control of the operative parts of the industrial systems of the software 'ITS PLC' ",
   },
   {
     id: 3,
