@@ -6,7 +6,9 @@ export const SkillsCardStyle = styled.div`
   text-align: center;
   flex-basis: 30%;
   border-radius: 16px;
-  box-shadow: 0 3px 1px -2px #00b388, 0 2px 2px 0 #00b388, 0 1px 5px 0 #00b388;
+  border: 1px solid hsla(225, 100%, 15%, 0.2);
+  box-shadow: 0 0.2em 0.5em hsla(225, 100%, 15%, 0.2);
+  background-color: #fff;
   h2 {
     padding: 16px;
     border-radius: 16px;

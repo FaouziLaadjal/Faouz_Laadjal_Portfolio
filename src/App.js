@@ -10,7 +10,7 @@ import Contact from "./Components/Contact/Contact";
 const theme = {
   colors: {
     header: "#eefdf6",
-    body: "#fff",
+    body: "#f7f7f7",
     PrimaryColor: "#00B388",
     SecondaryColor: "#eefdf6",
     Light: "#0000008a",

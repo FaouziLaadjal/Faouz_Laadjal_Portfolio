@@ -7,9 +7,10 @@ export const StyledCard = styled.div`
   text-align: center;
   align-items: center;
   border-radius: 15px;
-
-  box-shadow: 0 3px 1px -2px #00b388, 0 2px 2px 0 #00b388, 0 1px 5px 0 #00b388;
+  border: 1px solid hsla(225, 100%, 15%, 0.2);
+  box-shadow: 0 0.2em 0.5em hsla(225, 100%, 15%, 0.2);
   flex-basis: 32%;
+  background-color: #fff;
   img {
     width: 150px;
     height: 50px;

@@ -3,9 +3,6 @@ export const StyleHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
   padding: 5px 0;
   height: 100vh;
-  h1 {
-    font-weight: 400;
-  }
   p {
     color: ${({ theme }) => theme.colors.Light};
     line-height: 1.6em;
@@ -22,7 +19,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 3em;
 `;
 export const Logo = styled.span`
   font-family: "Dancing Script", cursive;
@@ -49,7 +46,6 @@ export const Links = styled.ul`
 `;
 export const Image = styled.img`
   width: 450px;
-  margin-left: 40px;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 40px 0 30px 0px;
     display: none;

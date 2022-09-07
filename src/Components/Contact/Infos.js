@@ -16,7 +16,7 @@ export default function Infos() {
           </a>
         </li>
         <li>
-          <a>
+          <a href="tel:+213775458209">
             <CgPhone></CgPhone>
             <p>0775458209</p>
           </a>

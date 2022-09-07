@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const StyledSocial = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   li {
     list-style: none;
   }
