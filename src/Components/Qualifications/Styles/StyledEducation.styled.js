@@ -1,53 +1,60 @@
 import styled from "styled-components";
 export const StyledEducation = styled.div`
-  h2 {
-    color: #00b388;
-    font-weight: bold;
-    font-size: 2em;
-  }
-  ul {
-    padding: 0;
-  }
-  ul li {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 70px auto;
-  }
+  h2,
   h3 {
-    margin-top: 0;
-    margin-bottom: 0.1em;
+    color: var(--color-primary);
   }
 
-  svg {
-    font-size: 40px;
-    color: #00b388;
+  .svg {
+    font-size: 2.5em;
+    color: var(--color-primary);
+  }
+  ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  ul li {
+    display: grid;
+    grid-template-columns: 5em auto;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid var(--color-primary);
+    box-shadow: var(--shadow);
   }
   .content {
     display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .date_place {
+    display: flex;
     justify-content: space-between;
   }
-  .date {
-    font-weight: 300;
-    font-size: 0.9em;
+  p {
+    color: var(--color-light);
   }
-  p,
-  li {
-    font-weight: 300;
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: ${({ theme }) => theme.colors.Light};
-  }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media screen and (max-width: 68em) {
     ul li {
+      background-color: #fff;
       padding: 1em;
-      border: 1px solid hsla(225, 100%, 15%, 0.2);
-      box-shadow: 0 0.2em 0.5em hsla(225, 100%, 15%, 0.2);
-      border-radius: 15px;
-      margin-bottom: 20px;
-      display: block;
+      border: 1px solid var(--color-primary);
+      box-shadow: var(--shadow);
     }
     .content {
       display: block;
+    }
+    .date {
+      font-size: 0.8em;
+    }
+    .date_place {
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    h2 {
+      text-align: center;
     }
   }
 `;

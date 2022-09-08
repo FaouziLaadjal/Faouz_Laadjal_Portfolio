@@ -7,13 +7,18 @@ export default function SkillsCard(props) {
       <SkillsCardStyle>
         <h2>{props.test.title}</h2>
         <h3>Languages</h3>
-        {props.test.Languages.map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
+        <ul>
+          {props.test.Languages.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+
         <h3>Softwares</h3>
-        {props.test.Software.map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
+        <ul>
+          {props.test.Software.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </SkillsCardStyle>
     );
   }
@@ -22,13 +27,17 @@ export default function SkillsCard(props) {
       <SkillsCardStyle>
         <h2>{props.test.title}</h2>
         <h3>Languages</h3>
-        {props.test.Languages.map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
+        <ul>
+          {props.test.Languages.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
         <h3>Frameworks</h3>
-        {props.test.Frameworks.map((item, index) => (
-          <span key={index}>{item}</span>
-        ))}
+        <ul>
+          {props.test.Frameworks.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </SkillsCardStyle>
     );
   }

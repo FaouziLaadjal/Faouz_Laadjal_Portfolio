@@ -21,14 +21,19 @@ export const StyledMain = styled.main`
   }
   .contact {
     display: flex;
+    align-content: center;
   }
   @media screen and (max-width: 68em) {
+    height: 600px;
     .container {
-      padding: 10em 0;
+      padding-top: 10em;
       background-image: none;
     }
     .contact {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
     }
     .socials {
       display: flex;

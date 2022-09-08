@@ -1,6 +1,5 @@
 import { StyledForm } from "./Styles/Form.styled";
 import { Button } from "../General/Styles/Button.styled";
-import colors from "../../data/Colors";
 export default function Form() {
   return (
     <StyledForm>
@@ -18,7 +17,7 @@ export default function Form() {
         <label htmlFor="">Message</label>
         <textarea className="textArea" type="text" placeholder="Your Message" />
       </div>
-      <Button bg={colors.Primary}>Send</Button>
+      <Button bg="var(--color-primary)">Send</Button>
     </StyledForm>
   );
 }

@@ -1,4 +1,4 @@
-import { StyledMain, Image } from "./Styles/StyledMain";
+import { StyledMain } from "./Styles/StyledMain";
 import { Button } from "../General/Styles/Button.styled";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
@@ -31,9 +31,9 @@ export default function Home() {
     };
   }, []);
   return (
-    <StyledMain className="container__wrapper">
+    <StyledMain id="home" className="container__wrapper">
       <div className="container">
-        <h1 className="heading">
+        <h1>
           <span>I'am a </span>
           <span className="test" ref={el}></span>
         </h1>

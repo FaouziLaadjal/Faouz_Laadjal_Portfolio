@@ -1,12 +1,10 @@
 import styled from "styled-components";
 export const SkillsFlex = styled.div`
+  padding: 1em;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  justify-content: space-around;
+  @media screen and (max-width: 68em) {
     flex-direction: column;
-    width: 100%;
-    gap: 0px;
+    gap: 4em;
   }
 `;

@@ -2,45 +2,36 @@ import styled from "styled-components";
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 2em;
-
-  padding: 32px 32px;
-  border-radius: 15px;
-  border: 1px solid hsla(225, 100%, 15%, 0.2);
-  box-shadow: 0 0.2em 0.5em hsla(225, 100%, 15%, 0.2);
+  gap: 1em;
+  padding: 2em;
   background-color: #fff;
+  box-shadow: var(--shadow);
+  border-radius: 0.5em;
+  padding: 2em;
   .flex {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 16px;
-  }
-
-  .Inputs {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
   }
-
+  label {
+    font-size: 1.1em;
+  }
   input {
-    padding: 0.7em;
-    border: 1px solid hsla(225, 100%, 15%, 0.2);
-    border-radius: 0.3em;
-  }
-
-  textarea {
-    margin-top: 10px;
-    padding: 0.7em;
-    border: 1px solid hsla(225, 100%, 15%, 0.2);
-    border-radius: 0.3em;
-    height: 12em;
+    margin-top: 0.4em;
     width: 100%;
-    resize: none;
+    padding: 0.7em;
+    font-size: 1.1em;
+    border-radius: 0.3em;
   }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    flex-direction: column;
-    .flex {
-      display: flex;
-      flex-direction: column;
-    }
+  textArea {
+    margin-top: 0.4em;
+    width: 100%;
+    padding: 0.7em;
+    resize: none;
+    font-size: 1.1em;
+    height: 12em;
+    border: 1px solid;
+    border-radius: 0.3em;
   }
 `;

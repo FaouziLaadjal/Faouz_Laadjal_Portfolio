@@ -7,19 +7,21 @@ export default function ExperienceCard() {
       <h2>Experience</h2>
       <ul className="wrapper">
         {experience.map((item, index) => (
-          <li key={index}>
+          <li className="firstList" key={index}>
             <FaBriefcase className="svg" />
-            <div>
+            <div className="content">
               <h3>{item.title}</h3>
               <div className="place_date">
-                <span >{item.place}</span>
+                <span>{item.place}</span>
                 <span>{item.date}</span>
               </div>
 
               <p>{item.discription}</p>
-              <ul>
+              <ul className="secondlist">
                 {item.skills.map((e, index) => (
-                  <li key={index}>{e}</li>
+                  <li key={index}>
+                    <p>{e}</p>
+                  </li>
                 ))}
               </ul>
             </div>

@@ -1,10 +1,16 @@
 import styled from "styled-components";
-export const ContactStyled = styled.div`
-  display: flex;
-  gap: 48px;
-  justify-content: center;
-  align-items: center;
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    flex-direction: column;
+export const ContactStyled = styled.section`
+  padding: 1em;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  @media screen and (max-width: 68em) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
   }
 `;

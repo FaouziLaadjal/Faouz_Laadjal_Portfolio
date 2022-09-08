@@ -4,9 +4,11 @@ import Form from "./Form";
 
 export default function Contact() {
   return (
-    <ContactStyled>
-      <Infos />
-      <Form />
+    <ContactStyled className="container__wrapper" id="contact">
+      <div className="container">
+        <Infos />
+        <Form />
+      </div>
     </ContactStyled>
   );
 }

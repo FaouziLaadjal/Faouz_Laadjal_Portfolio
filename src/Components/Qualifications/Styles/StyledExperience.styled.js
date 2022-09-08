@@ -1,39 +1,62 @@
 import styled from "styled-components";
 export const StyledExperience = styled.div`
-  h2 {
-    color: #00b388;
-    font-size: 2em;
-    font-weight: bold;
-  }
+  h2,
   h3 {
-    color: #00b388;
+    color: var(--color-primary);
+  }
+
+  .svg {
+    font-size: 2em;
+    color: var(--color-primary);
+  }
+  .wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
   }
   ul li {
     list-style: none;
-    color: ${({ theme }) => theme.colors.Light};
-    font-weight: 300;
   }
-  .svg {
-    font-size: 2em;
-    color: #00b388;
-  }
-  .wrapper li {
+  .firstList {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 40px;
+    grid-template-columns: 5em auto;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid var(--color-primary);
+    box-shadow: var(--shadow);
+  }
+  .secondlist li {
+    list-style: square;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
   }
   .place_date {
     display: flex;
     justify-content: space-between;
   }
   p {
-    margin-top: 10px;
-    font-size: 1em;
-    color: ${({ theme }) => theme.colors.Light};
+    max-width: 75ch;
+    line-height: 1.5em;
+    color: var(--color-light);
   }
-  span {
-    color: #000;
-    font-weight: 400;
-    font-size: 1em;
+  @media screen and (max-width: 68em) {
+    .firstList {
+      background-color: #fff;
+      padding: 1em;
+      border: 1px solid var(--color-primary);
+      box-shadow: var(--shadow);
+    }
+    .place_date {
+      flex-direction: column;
+      gap: 0.5em;
+    }
+    h2 {
+      text-align: center;
+    }
   }
 `;

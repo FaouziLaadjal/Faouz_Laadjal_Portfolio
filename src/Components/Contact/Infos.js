@@ -5,6 +5,7 @@ export default function Infos() {
   return (
     <StyledInfos>
       <h2>Contact me</h2>
+      <h3>You wanna know more about me ?</h3>
       <p className="text">
         Feel free to contact me in one of the following social media platforms.
       </p>
@@ -22,7 +23,9 @@ export default function Infos() {
           </a>
         </li>
       </ul>
-      <SocialIcons />
+      <div className="socials">
+        <SocialIcons />
+      </div>
     </StyledInfos>
   );
 }

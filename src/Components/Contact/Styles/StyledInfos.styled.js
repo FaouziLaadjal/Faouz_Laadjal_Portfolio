@@ -2,45 +2,47 @@ import styled from "styled-components";
 export const StyledInfos = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1em;
   h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 48px;
+    color: var(--color-primary);
+    font-size: 3em;
     font-weight: bold;
-    color: ${({ theme }) => theme.colors.PrimaryColor};
   }
-  ul {
-    margin: 0;
-    padding: 0;
+  h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  p {
+    max-width: 45ch;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.2em;
   }
   ul li {
-    margin-bottom: 10px;
     list-style: none;
   }
   ul li a {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    color: var(--color-primary);
+    font-weight: bold;
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.PrimaryColor};
-  }
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  .text {
-    max-width: 45ch;
-    line-height: 1.5em;
-  }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+    gap: 1em;
     align-items: center;
+    font-size: 1.1em;
+  }
+  @media screen and (max-width: 68em) {
     text-align: center;
     ul li a {
-      font-size: 16px;
-      padding: 1em 2em;
       border: 1px solid;
-      border-radius: 15px;
+      box-shadow: var(--shadow);
+      padding: 1em;
+    }
+    ul li {
+      padding: 1em;
+    }
+    .socials {
+      display: flex;
+      justify-content: center;
     }
   }
 `;

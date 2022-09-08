@@ -9,15 +9,11 @@ export default function EducationCard() {
         {education.map((item, index) => (
           <li key={index}>
             <MdSchool className="svg" />
-            <div>
-              <div className="content">
-                <div>
-                  <h3>{item.title}</h3>
-                  <span>{item.place}</span>
-                </div>
-                <div>
-                  <span className="date">{item.date}</span>
-                </div>
+            <div className="content">
+              <h3>{item.title}</h3>
+              <div className="date_place">
+                <span>{item.place}</span>
+                <span>{item.date}</span>
               </div>
               <p>{item.discription}</p>
             </div>
