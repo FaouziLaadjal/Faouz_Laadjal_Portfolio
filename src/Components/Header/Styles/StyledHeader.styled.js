@@ -1,53 +1,47 @@
 import styled from "styled-components";
 export const StyleHeader = styled.header`
-  background-color: ${({ theme }) => theme.colors.header};
-  padding: 5px 0;
-  height: 100vh;
-  p {
-    color: ${({ theme }) => theme.colors.Light};
-    line-height: 1.6em;
-  }
-  .test {
-    color: ${({ theme }) => theme.colors.Light};
-    font-weight: bold;
-  }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    height: 100%;
-  }
+  position: fixed;
+  z-index: 999;
+  background-color: var(--color-header);
+  width: 100%;
+  box-shadow: var(--shadow);
 `;
 export const Nav = styled.nav`
+  padding: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3em;
-`;
-export const Logo = styled.span`
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  font-size: 2em;
-  color: ${({ theme }) => theme.colors.PrimaryColor};
-`;
-export const Links = styled.ul`
-  font-size: 0.9em;
-  list-style: none;
-  display: flex;
-  gap: 2em;
-
+  ul {
+    display: flex;
+    gap: 1em;
+  }
+  ul li {
+    list-style-type: none;
+  }
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.Light};
+    color: var(--color-light);
+    font-weight: 600;
   }
   a:hover {
-    color: ${({ theme }) => theme.colors.PrimaryColor};
+    color: var(--color-primary);
   }
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  .burger {
     display: none;
+    font-size: 1.5em;
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+  @media screen and (max-width: 68em) {
+    ul {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
   }
 `;
-export const Image = styled.img`
-  width: 450px;
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin: 40px 0 30px 0px;
-    display: none;
-  }
+export const Logo = styled.span`
+  color: var(--color-primary);
+  font-size: 2em;
 `;

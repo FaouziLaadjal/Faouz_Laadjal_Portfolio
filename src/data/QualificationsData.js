@@ -4,7 +4,9 @@ export const experience = [
     title: "Front End Developer",
     date: "January 2022 - Present",
     place: "Freelancer",
-    discription: "",
+    discription:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi labore ab voluptates tempora dignissimos! Ad ea aliquam iusto! Rerum, perferendis!",
+    skills: [],
   },
   {
     id: 2,
@@ -33,7 +35,7 @@ export const experience = [
     skills: [
       "Understand the cement manufacturing process and the supervision with the DCS system",
       "Identification of the different instrumentations and cabinets of power, control and compensation.",
-      "-Identification of the different electrical components and the different type of communication buses in the control room cabinet (S7-400, Modbus, Ethernet, ....).",
+      "Identification of the different electrical components and the different type of communication buses in the control room cabinet (S7-400, Modbus, Ethernet, ....).",
     ],
   },
 ];

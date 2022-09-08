@@ -30,7 +30,8 @@ export const StyledEducation = styled.div`
     font-weight: 300;
     font-size: 0.9em;
   }
-  p {
+  p,
+  li {
     font-weight: 300;
     margin-top: 10px;
     font-size: 1.1em;
