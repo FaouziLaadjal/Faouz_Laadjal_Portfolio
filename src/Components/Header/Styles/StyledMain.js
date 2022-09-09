@@ -24,7 +24,6 @@ export const StyledMain = styled.main`
     align-content: center;
   }
   @media screen and (max-width: 68em) {
-    height: 600px;
     .container {
       padding-top: 10em;
       background-image: none;
