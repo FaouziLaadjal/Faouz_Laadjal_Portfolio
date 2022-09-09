@@ -3,14 +3,14 @@ const projects = [
     id: 1,
     title: "Ruta Services",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "logo.svg",
+    image: "",
     link: "https://faouzilaadjal.github.io/RutaServices/",
   },
   {
     id: 2,
     title: "Insure",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "logo _insure.svg",
+    image: "insure.svg",
     link: "https://faouzilaadjal.github.io/Insure/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     id: 5,
     title: "Huddle Landing Page",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "huddle.svg",
+    image: "",
     link: "https://huddlelandingpage-master.vercel.app/",
   },
 
@@ -39,7 +39,7 @@ const projects = [
     id: 6,
     title: "Huddle Landing Page",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "huddle.svg",
+    image: "",
     link: "https://huddlelandingpage-master.vercel.app/",
   },
 ];

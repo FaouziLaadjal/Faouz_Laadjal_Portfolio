@@ -3,6 +3,7 @@ import { Button } from "../General/Styles/Button.styled";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import SocialIcons from "../General/SocialIcons";
+
 export default function Home() {
   //Create Ref Element
   const el = useRef(null);
@@ -45,8 +46,12 @@ export default function Home() {
           determination to succeed in my field of work.
         </p>
         <div className="contact">
-          <Button bg="var(--color-primary)">Contact Me</Button>
-          <Button bg="var(--color-primary)">Download My CV</Button>
+          <a href="#form">
+            <Button bg="var(--color-primary)">Contact Me</Button>
+          </a>
+          <a href="CV.pdf" download={"Laadjal Faouzi CV"}>
+            <Button bg="var(--color-primary)">Download My CV</Button>
+          </a>
           <div className="socials">
             <SocialIcons />
           </div>
