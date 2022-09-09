@@ -1,4 +1,3 @@
-import { Frontskills, Autoskills } from "../../data/Skills";
 import { SkillsCardStyle } from "./Styles/SkillsCard.styled";
 
 export default function SkillsCard(props) {

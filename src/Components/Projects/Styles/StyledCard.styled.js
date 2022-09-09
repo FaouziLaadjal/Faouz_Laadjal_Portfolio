@@ -1,19 +1,18 @@
 import styled from "styled-components";
 export const StyledCard = styled.div`
-  padding: 20px 20px;
+  padding: 1em;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1em;
   text-align: center;
   align-items: center;
   border-radius: 15px;
-  border: 1px solid hsla(225, 100%, 15%, 0.2);
-  box-shadow: 0 0.2em 0.5em hsla(225, 100%, 15%, 0.2);
-  flex-basis: 32%;
+  box-shadow: var(--shadow);
+
   background-color: #fff;
   img {
-    width: 150px;
-    height: 50px;
+    width: 9em;
+    height: 3em;
   }
   a {
     text-decoration: none;
