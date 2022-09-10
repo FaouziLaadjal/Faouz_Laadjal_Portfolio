@@ -1,7 +1,10 @@
 import { StyleHeader, Nav, Logo } from "./Styles/StyledHeader.styled";
-
+import { useState } from "react";
 import { CgMenu } from "react-icons/cg";
 export default function Header() {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
   return (
     <StyleHeader className="container__wrapper">
       <div className="container">
@@ -10,7 +13,11 @@ export default function Header() {
             <Logo>Laadjal Faouzi</Logo>
           </a>
 
-          <ul id="navbarlinks" className="random">
+          <ul
+            id="navbarlinks"
+            onClick={showSidebar}
+            className={sidebar ? "show" : "hide"}
+          >
             <li>
               <a href="#home">HOME</a>
             </li>
@@ -27,7 +34,7 @@ export default function Header() {
               <a href="#contact">CONTACT</a>
             </li>
           </ul>
-          <CgMenu id="navbtn" className="burger" />
+          <CgMenu id="navbtn" onClick={showSidebar}  className="burger" />
         </Nav>
       </div>
     </StyleHeader>
