@@ -33,11 +33,12 @@ export const Nav = styled.nav`
     cursor: pointer;
   }
   @media screen and (max-width: 68em) {
-    ul {
-      display: none;
-    }
     .burger {
       display: block;
+      z-index: 99999;
+    }
+    ul {
+      display: none;
     }
   }
 `;

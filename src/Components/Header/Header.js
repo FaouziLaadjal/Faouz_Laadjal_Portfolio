@@ -10,7 +10,7 @@ export default function Header() {
             <Logo>Laadjal Faouzi</Logo>
           </a>
 
-          <ul>
+          <ul id="navbarlinks" className="random">
             <li>
               <a href="#home">HOME</a>
             </li>
@@ -27,7 +27,7 @@ export default function Header() {
               <a href="#contact">CONTACT</a>
             </li>
           </ul>
-          <CgMenu className="burger" />
+          <CgMenu id="navbtn" className="burger" />
         </Nav>
       </div>
     </StyleHeader>
