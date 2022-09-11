@@ -15,7 +15,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Sneakers E-commerce Demo",
+    title: "Sneakers ",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
     image: "sneakers.svg",
     link: "https://faouzilaadjal.github.io/E-commerceProductPage/",

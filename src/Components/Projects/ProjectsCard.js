@@ -5,13 +5,17 @@ export default function ProjectsCard({
   item: { id, title, body, image, link },
 }) {
   return (
-    <StyledCard data-aos="zoom-out-down" data-aos-duration="1000">
-      <h3>{title}</h3>
-      <img src={`./images/${image}`} alt=""></img>
+    <StyledCard >
+      <h2>{title}</h2>
+      <div className="imgContainer">
+        <img src={`./images/${image}`} alt=""></img>
+      </div>
 
-      <Button bg={colors.Secondary}>
-        <a href={`${link}`}>Website</a>
-      </Button>
+      <div>
+        <Button className="btn" bg={colors.Secondary}>
+          <a href={`${link}`}>Website</a>
+        </Button>
+      </div>
     </StyledCard>
   );
 }

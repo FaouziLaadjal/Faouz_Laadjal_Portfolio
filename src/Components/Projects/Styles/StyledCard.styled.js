@@ -3,22 +3,33 @@ export const StyledCard = styled.div`
   padding: 1em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
   text-align: center;
-  align-items: center;
   border-radius: 15px;
   box-shadow: var(--shadow);
-
   background-color: #fff;
-  .imgdiv {
+  .imgContainer {
+    padding: 0 13em;
   }
-  img {
-    width: 300px;
-    border-radius: 1em;
-    height: 215px;
+  .imgContainer img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 378px;
   }
   a {
     text-decoration: none;
     color: #00b388;
+  }
+  .btn {
+    margin-bottom: 2em;
+  }
+  @media screen and (max-width: 68em) {
+    min-height: 386px;
+    .imgContainer {
+      padding: 0;
+    }
+    .imgContainer img {
+      max-height: 180px;
+    }
   }
 `;

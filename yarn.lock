@@ -1595,6 +1595,18 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@splidejs/react-splide@^0.7.10":
+  "integrity" "sha512-W83LCjbx0DTKCCCZGV9zTTnl80CDA7LOOg41rOpQ8NXuTBsDVAhqlQ8+bAvvBiclPbAgSi/dMMDkknA19Guq+A=="
+  "resolved" "https://registry.npmjs.org/@splidejs/react-splide/-/react-splide-0.7.10.tgz"
+  "version" "0.7.10"
+  dependencies:
+    "@splidejs/splide" "^4.0.17"
+
+"@splidejs/splide@^4.0.17":
+  "integrity" "sha512-k67vDY0+hl7Qi+I+juOF+DO1KuRw+4RfV5x5SlIVrK60DmMzQvp2j9CqDzixUw3jDDoEaPTGY4BKy5SZSiFf1Q=="
+  "resolved" "https://registry.npmjs.org/@splidejs/splide/-/splide-4.0.17.tgz"
+  "version" "4.0.17"
+
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   "integrity" "sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ=="
   "resolved" "https://registry.npmjs.org/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz"
