@@ -11,8 +11,9 @@ export const StyledCard = styled.div`
 
   background-color: #fff;
   img {
-    width: 20em;
-    height: 20em;
+    width: 350px;
+    border-radius: 15px;
+    height: 215px;
   }
   a {
     text-decoration: none;

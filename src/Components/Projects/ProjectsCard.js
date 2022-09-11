@@ -6,8 +6,9 @@ export default function ProjectsCard({
 }) {
   return (
     <StyledCard data-aos="zoom-out-down" data-aos-duration="1000">
+      <h3>{title}</h3>
       <img src={`./images/${image}`} alt=""></img>
-      <p>{body}</p>
+
       <Button bg={colors.Secondary}>
         <a href={`${link}`}>Website</a>
       </Button>

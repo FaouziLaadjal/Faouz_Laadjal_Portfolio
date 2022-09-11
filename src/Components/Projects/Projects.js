@@ -6,7 +6,6 @@ export default function Projects() {
     <section className="container__wrapper" id="projects">
       <div className="container">
         <h2 className="heading">
-          {" "}
           Let's see some of the projects that i'v worked on
         </h2>
         <CardFlex>
