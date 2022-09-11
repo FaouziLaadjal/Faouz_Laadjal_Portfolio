@@ -8,8 +8,7 @@ export const SkillsFlex = styled.div`
     gap: 4em;
     background: none;
   }
-  background: url("images/skills.jpg");
+  background: url("images/skills.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 500px auto;
 `;

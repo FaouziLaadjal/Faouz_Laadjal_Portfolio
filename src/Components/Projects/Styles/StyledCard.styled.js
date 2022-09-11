@@ -10,9 +10,11 @@ export const StyledCard = styled.div`
   box-shadow: var(--shadow);
 
   background-color: #fff;
+  .imgdiv {
+  }
   img {
-    width: 350px;
-    border-radius: 15px;
+    width: 300px;
+    border-radius: 1em;
     height: 215px;
   }
   a {
