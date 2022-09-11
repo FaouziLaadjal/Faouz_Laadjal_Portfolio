@@ -23,6 +23,7 @@ export const StyledEducation = styled.div`
     padding: 1em;
     border: 1px solid var(--color-primary);
     box-shadow: var(--shadow);
+    border-radius: 15px;
   }
   .content {
     display: flex;

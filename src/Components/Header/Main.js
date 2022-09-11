@@ -52,9 +52,6 @@ export default function Home() {
           <a href="CV.pdf" download={"Laadjal Faouzi CV"}>
             <Button bg="var(--color-primary)">Download My CV</Button>
           </a>
-          <div className="socials">
-            <SocialIcons />
-          </div>
         </div>
       </div>
     </StyledMain>

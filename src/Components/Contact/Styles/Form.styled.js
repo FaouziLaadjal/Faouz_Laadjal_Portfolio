@@ -16,6 +16,7 @@ export const StyledForm = styled.form`
   }
   label {
     font-size: 1.1em;
+    
   }
   input {
     margin-top: 0.4em;
@@ -23,7 +24,9 @@ export const StyledForm = styled.form`
     padding: 0.7em;
     font-size: 1.1em;
     border-radius: 0.3em;
+    border: 1px solid var(--color-primary);
   }
+
   textArea {
     margin-top: 0.4em;
     width: 100%;
@@ -31,7 +34,7 @@ export const StyledForm = styled.form`
     resize: none;
     font-size: 1.1em;
     height: 12em;
-    border: 1px solid;
+    border: 1px solid var(--color-primary);
     border-radius: 0.3em;
   }
 `;

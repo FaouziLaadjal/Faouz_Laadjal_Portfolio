@@ -26,6 +26,7 @@ export const StyledExperience = styled.div`
     padding: 1em;
     border: 1px solid var(--color-primary);
     box-shadow: var(--shadow);
+    border-radius: 15px;
   }
   .secondlist li {
     list-style: square;
