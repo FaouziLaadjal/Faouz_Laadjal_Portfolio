@@ -2,7 +2,7 @@ import { StyledForm } from "./Styles/Form.styled";
 import { Button } from "../General/Styles/Button.styled";
 export default function Form() {
   return (
-    <StyledForm id="form">
+    <StyledForm data-aos="zoom-in-down" data-aos-duration="1000" id="form">
       <div className="flex">
         <div className="Inputs">
           <label htmlFor="">Nom</label>

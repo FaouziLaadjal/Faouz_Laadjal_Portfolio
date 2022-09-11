@@ -5,7 +5,7 @@ export default function EducationCard() {
   return (
     <StyledEducation>
       <h2>Education</h2>
-      <ul>
+      <ul data-aos="zoom-in-down" data-aos-duration="2000">
         {education.map((item, index) => (
           <li key={index}>
             <MdSchool className="svg" />

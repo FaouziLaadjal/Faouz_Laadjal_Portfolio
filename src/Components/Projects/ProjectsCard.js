@@ -5,7 +5,7 @@ export default function ProjectsCard({
   item: { id, title, body, image, link },
 }) {
   return (
-    <StyledCard>
+    <StyledCard data-aos="zoom-out-down" data-aos-duration="1000">
       <img src={`./images/${image}`} alt=""></img>
       <p>{body}</p>
       <Button bg={colors.Secondary}>

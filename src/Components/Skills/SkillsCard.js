@@ -3,7 +3,7 @@ import { SkillsCardStyle } from "./Styles/SkillsCard.styled";
 export default function SkillsCard(props) {
   if (props.test.title !== "Front End") {
     return (
-      <SkillsCardStyle>
+      <SkillsCardStyle data-aos="flip-right" data-aos-duration="1000">
         <h2>{props.test.title}</h2>
         <h3>Languages</h3>
         <ul>
@@ -23,7 +23,7 @@ export default function SkillsCard(props) {
   }
   if (props.test.title === "Front End") {
     return (
-      <SkillsCardStyle>
+      <SkillsCardStyle data-aos="flip-left" data-aos-duration="1000">
         <h2>{props.test.title}</h2>
         <h3>Languages</h3>
         <ul>

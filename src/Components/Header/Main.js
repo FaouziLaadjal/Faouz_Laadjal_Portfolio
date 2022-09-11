@@ -34,18 +34,18 @@ export default function Home() {
   return (
     <StyledMain id="home" className="container__wrapper">
       <div className="container">
-        <h1>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
           <span>I'am a </span>
           <span className="test" ref={el}></span>
         </h1>
 
-        <p>
+        <p data-aos="fade-right" data-aos-duration="1000">
           A highly motivated and passionate Industry & Process Automation
           student. Front-End Web developer on my free time. always seeks to
           acquire new knowledge and develop my skills, Strong desire and big
           determination to succeed in my field of work.
         </p>
-        <div className="contact">
+        <div data-aos="fade-right" data-aos-duration="1000" className="contact">
           <a href="#form">
             <Button bg="var(--color-primary)">Contact Me</Button>
           </a>

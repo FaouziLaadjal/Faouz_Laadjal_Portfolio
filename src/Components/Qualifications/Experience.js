@@ -5,7 +5,7 @@ export default function ExperienceCard() {
   return (
     <StyledExperience>
       <h2>Experience</h2>
-      <ul className="wrapper">
+      <ul data-aos="zoom-in-down" data-aos-duration="2000" className="wrapper">
         {experience.map((item, index) => (
           <li className="firstList" key={index}>
             <FaBriefcase className="svg" />

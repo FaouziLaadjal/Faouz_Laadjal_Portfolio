@@ -4,12 +4,16 @@ import SocialIcons from "../General/SocialIcons";
 export default function Infos() {
   return (
     <StyledInfos>
-      <h2>Contact me</h2>
-      <h3>You wanna know more about me ?</h3>
-      <p className="text">
+      <h2 data-aos="fade-down-right" data-aos-duration="1000">
+        Contact me
+      </h2>
+      <h3 data-aos="fade-down-right" data-aos-duration="1000">
+        You wanna know more about me ?
+      </h3>
+      <p data-aos="fade-down-right" data-aos-duration="1000" className="text">
         Feel free to contact me in one of the following social media platforms.
       </p>
-      <ul>
+      <ul data-aos="fade-down-right" data-aos-duration="1000">
         <li>
           <a href="mailto:faouzi.laadjal99@gmail.com">
             <CgMail></CgMail>
@@ -23,7 +27,11 @@ export default function Infos() {
           </a>
         </li>
       </ul>
-      <div className="socials">
+      <div
+        data-aos="fade-down-right"
+        data-aos-duration="1000"
+        className="socials"
+      >
         <SocialIcons />
       </div>
     </StyledInfos>
