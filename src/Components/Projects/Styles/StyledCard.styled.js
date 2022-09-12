@@ -12,6 +12,7 @@ export const StyledCard = styled.div`
     padding: 0 10em;
   }
   .imgContainer img {
+    border-radius: 15px;
     width: 100%;
     object-fit: cover;
     max-height: 420px;

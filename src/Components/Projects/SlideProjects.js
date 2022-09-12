@@ -10,15 +10,16 @@ export default function SlideProjects() {
         data-aos-duration="1000"
       >
         <h2 className="heading">Some of the projects that i have done</h2>
-        <div className="flex">
+        <div>
           <Splide
             options={{
               type: "loop",
               perpage: 1,
               autoplay: "true",
-              speed: "number=400",
+              interval: 3000,
               gap: "2em",
               padding: "2em",
+              pagination: false,
             }}
             aria-label="My Favorite Images"
           >
