@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Ruta Services",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "ruta.png",
+    image: "ruta.jpg",
     link: "https://faouzilaadjal.github.io/RutaServices/",
   },
   {

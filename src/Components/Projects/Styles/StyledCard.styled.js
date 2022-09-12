@@ -9,13 +9,11 @@ export const StyledCard = styled.div`
   box-shadow: var(--shadow);
   background-color: #fff;
   .imgContainer {
-    padding: 0 10em;
+    width: 100%;
   }
   .imgContainer img {
+    max-width: 100%;
     border-radius: 15px;
-    width: 100%;
-    object-fit: cover;
-    max-height: 420px;
   }
   a {
     text-decoration: none;
@@ -25,10 +23,5 @@ export const StyledCard = styled.div`
     margin-bottom: 2em;
   }
   @media screen and (max-width: 68em) {
-    .imgContainer {
-      padding: 0;
-    }
-    .imgContainer img {
-    }
   }
 `;
