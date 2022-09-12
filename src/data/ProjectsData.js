@@ -8,31 +8,31 @@ const projects = [
   },
   {
     id: 2,
-    title: "Insure",
-    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "insure.svg",
-    link: "https://faouzilaadjal.github.io/Insure/",
-  },
-  {
-    id: 3,
-    title: "Sneakers ",
-    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "sneakers.svg",
-    link: "https://faouzilaadjal.github.io/E-commerceProductPage/",
-  },
-  {
-    id: 4,
     title: "Frontend Bootcamp",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "frontend bootcamp.svg",
+    image: "frontend bootcamp.png",
     link: "https://faouzilaadjal.github.io/FrontEndBootcamp/",
   },
   {
-    id: 5,
+    id: 3,
     title: "Huddle Landing Page",
     body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
-    image: "huddle.svg",
+    image: "huddle.png",
     link: "https://huddlelandingpage-master.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Insure",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
+    image: "insure.png",
+    link: "https://faouzilaadjal.github.io/Insure/",
+  },
+  {
+    id: 5,
+    title: "Sneakers ",
+    body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur maxime error? Tempora, omnis atque.",
+    image: "sneakers.png",
+    link: "https://faouzilaadjal.github.io/E-commerceProductPage/",
   },
 ];
 
