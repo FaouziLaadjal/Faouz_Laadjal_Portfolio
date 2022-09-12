@@ -9,12 +9,12 @@ export const StyledCard = styled.div`
   box-shadow: var(--shadow);
   background-color: #fff;
   .imgContainer {
-    padding: 0 13em;
+    padding: 0 10em;
   }
   .imgContainer img {
     width: 100%;
     object-fit: cover;
-    max-height: 378px;
+    max-height: 420px;
   }
   a {
     text-decoration: none;
@@ -24,12 +24,10 @@ export const StyledCard = styled.div`
     margin-bottom: 2em;
   }
   @media screen and (max-width: 68em) {
-    min-height: 386px;
     .imgContainer {
       padding: 0;
     }
     .imgContainer img {
-      max-height: 180px;
     }
   }
 `;

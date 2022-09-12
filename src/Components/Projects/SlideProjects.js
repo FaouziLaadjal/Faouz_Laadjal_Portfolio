@@ -16,6 +16,9 @@ export default function SlideProjects() {
               type: "loop",
               perpage: 1,
               autoplay: "true",
+              speed: "number=400",
+              gap: "2em",
+              padding: "2em",
             }}
             aria-label="My Favorite Images"
           >
