@@ -1,13 +1,14 @@
 import styled from "styled-components";
 export const StyledCard = styled.div`
-  padding: 1em;
   display: flex;
   flex-direction: column;
   gap: 2em;
+  padding: 1em;
   text-align: center;
-  border-radius: 15px;
+
   box-shadow: var(--shadow);
   background-color: #fff;
+  margin: 2em 0;
   .imgContainer {
     width: 100%;
   }
