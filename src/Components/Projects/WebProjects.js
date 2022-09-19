@@ -11,8 +11,7 @@ export default function WebProjects() {
         perpage: 1,
         autoplay: "true",
         interval: 3000,
-        gap: "2em",
-        padding: "2em",
+
         pagination: false,
       }}
       aria-label="My Front Web Projects"

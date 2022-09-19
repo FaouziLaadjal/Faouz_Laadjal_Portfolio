@@ -35,8 +35,8 @@ export const AutoCard = styled.div`
   }
   @media screen and (max-width: 68em) {
     iframe {
-      width: 100%;
-      height: 100%;
+      width: 375px;
+      height: 210px;
     }
     .text {
       flex-direction: column;

@@ -7,8 +7,7 @@ export default function AutoProjects() {
       options={{
         perpage: 1,
         type: "slide",
-        gap: "2em",
-        padding: "2em",
+
         pagination: false,
       }}
       aria-label="My Automation  Projects"
@@ -23,8 +22,7 @@ export default function AutoProjects() {
                 src={`${item.link}`}
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allow="accelerometer; autoplay; fullscreen ; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
             </div>
 
