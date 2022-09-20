@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const StyledSocial = styled.div`
+export const StyledSocial = styled.ul`
   display: flex;
   align-items: center;
   justify-content: flex-start;
