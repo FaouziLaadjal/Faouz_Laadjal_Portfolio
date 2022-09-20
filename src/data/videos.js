@@ -1,9 +1,17 @@
 export const videos = [
   {
+    id: 9,
+    link: "https://www.youtube.com/embed/1iw7Hhv5GVE",
+    title: "Supervision of a pumping station",
+    discription:
+      "Supervision and simulation of a pumping station with 2 pumps of 4KW 230v controlled via an electrical box which operate in different modes depending on the water level, several safety measures are treated.",
+  },
+  {
     id: 1,
     link: "https://www.youtube.com/embed/UGUgXmUHUmw",
     title: "HMI supervision biological treatment of",
-    discription: "",
+    discription:
+      "Supervision and simulation of a basin of a biological treatment part of a water treatment plant with 4 turbines that operate in different modes depending on the level of measurement or the timed mode.",
   },
   {
     id: 2,

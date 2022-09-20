@@ -23,7 +23,7 @@ export const AutoCard = styled.div`
   .text {
     display: flex;
     gap: 1em;
-    align-items: center;
+
     justify-content: center;
   }
   span {
@@ -35,7 +35,7 @@ export const AutoCard = styled.div`
   }
   @media screen and (max-width: 68em) {
     iframe {
-      width: 375px;
+      width: 100%;
       height: 210px;
     }
     .text {
