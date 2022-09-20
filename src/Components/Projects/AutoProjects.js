@@ -19,9 +19,10 @@ export default function AutoProjects() {
 
             <div className="vidContainer">
               <iframe
+                loading="lazy"
                 src={`${item.link}`}
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; fullscreen ; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
             </div>
