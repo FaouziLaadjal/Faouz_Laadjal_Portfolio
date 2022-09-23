@@ -61,4 +61,11 @@ export const videos = [
     title: "Separating Station",
     discription: "Separate blue and green parts into two conveyors.",
   },
+  {
+    id: 11,
+    link: "https://www.youtube.com/embed/DaJYBk1CmUE",
+    title: "Assembler",
+    discription:
+      "Assemble parts made of lids and bases using a two-axis pick and place.",
+  },
 ];
