@@ -14,8 +14,8 @@ function App() {
   Aos.init();
   return (
     <>
-      <Header id="header" />
-      <Home id="home" />
+      <Header />
+      <Home />
       <Qualifications />
       <Skills />
       <Projects />
