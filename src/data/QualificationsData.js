@@ -3,16 +3,16 @@ export const experience = [
     id: 4,
     title: "Internship Trainee",
     date: "January 2022 - Present",
-    place: "Faderco| Les Eucalyptus, Algiers, Algeria.",
+    place: "Faderco | Les Eucalyptus, Algiers, Algeria.",
     discription:
-    "Internship in a production plant and manufacturing of hygiene products, the objective was to :",
+    "Internship in a production plant and manufacturing of hygiene products, the objective was to:",
     skills: ["Understand the production process of different hygienic products (sanitary napkins for women, adults and cotton swabs and wipes).","Discovery of the CMMS software for the management and planning of preventive maintenance and calculation of maintenance indicators.","Realization of an HMI for the station of water treatment and preparation of perfumes for the wipes products."],
   },
   {
     id: 1,
     title: "Front End Developer",
     date: "January 2022 - Present",
-    place: "Dosket| Bordj el kiffan, Algiers, Algeria.",
+    place: "Dosket | Bordj el kiffan, Algiers, Algeria.",
     discription:
     "Spent 8 months learning various web development skills , mainly:",
     skills: ["Learn and practice the different web interface development tools using HTML, CSS and Javascript.","Use of React front end framework with Styled components.","Participate in the design of website interface, implement the best practices and semantics of the web.","Oversee the integration and ensure that good development practices are in place.","Participate in design thinking and the conception of management tools dedicated to companies."],
