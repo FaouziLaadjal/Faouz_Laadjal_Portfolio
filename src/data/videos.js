@@ -1,5 +1,12 @@
 export const videos = [
   {
+    id: 12,
+    link: "https://www.youtube.com/embed/KfnjmLcN-5w",
+    title: "Automation and supervision of lotion preparation for a wipe station",
+    discription:
+      "Automation and supervision of lotion preparation with choice of different perfumes for a Wipe Station with the monitoring of the distilled water treatment and preparation process, Realized following a problem observed at the level of the wipe station.",
+  },
+  {
     id: 1,
     link: "https://www.youtube.com/embed/1iw7Hhv5GVE",
     title: "Supervision of a pumping station",
