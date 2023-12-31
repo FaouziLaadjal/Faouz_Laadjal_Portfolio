@@ -1,4 +1,22 @@
 export const experience = [
+{
+    id:6,
+    title: "Automation Engineer",
+    date: "March 2023 - June 2023",
+    place: "Inter Entreprise | Rouiba, Algiers, Algeria.",
+    discription:
+    "During my various assignments within different projects, I have accomplished the following tasks:",
+    skills: ["Inspection of the control section of electrical cabinets according to electrical diagrams, including identification and resolution of wiring issues.","Verification of inputs and outputs of various programmable logic controllers (PLCs), as well as conducting remote control tests from the PLC.","Analyzing the data to identify inefficiencies or weaknesses in the station and taking measures to optimize its performance and efficiency."],
+  },
+{
+    id:5,
+    title: "MindSphere Solution Developer",
+    date: "March 2023 - June 2023",
+    place: "Siemens SPA | Val d'Hydra, Algiers, Algeria.",
+    discription:
+    "Development of a digital solution using the Mindsphere platform to enable real-time monitoring for optimization of operations & maximize the efficiency of Ain Zada Bordj Bou arreridj water treatment plant, Tasks include:",
+    skills: ["extracting real-time data from various sources using a PROFINET S7 connection to a Siemens MindConnect gateway.","Developed a custom dashboard application using ReactJS and NodeJS to display real-time data.","Analyzing the data to identify inefficiencies or weaknesses in the station and taking measures to optimize its performance and efficiency."],
+  },
   {
     id: 4,
     title: "Internship Trainee",
@@ -52,7 +70,7 @@ export const education = [
   {
     id: 1,
     title: "Masters in Industry & Process Automation",
-    date: "September 2022 - Present",
+    date: "September 2022 - June 2023",
     place: "USTHB, Algiers.",
     discription: "",
   },
