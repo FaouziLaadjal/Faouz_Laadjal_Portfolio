@@ -1,7 +1,7 @@
 export const videos = [
   {
     id: 13,
-    link: "https://youtu.be/3xjBisKAXes",
+    link: "https://www.youtube.com/embed/3xjBisKAXes",
     title: "Real-Time Monitoring with a dashbord connected to MindSphere and Siemens PLC station",
     discription:
       "The project involves creating an automated control system for a water treatment plant's filtration process. This includes designing a user interface (HMI) for operators to visualize and control filtration. A digital solution on the Mindsphere platform enables real-time monitoring and optimization.",

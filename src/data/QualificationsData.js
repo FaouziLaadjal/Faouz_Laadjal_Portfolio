@@ -2,7 +2,7 @@ export const experience = [
 {
     id:6,
     title: "Automation Engineer",
-    date: "March 2023 - June 2023",
+    date: "March 2023 - Present",
     place: "Inter Entreprise | Rouiba, Algiers, Algeria.",
     discription:
     "During my various assignments within different projects, I have accomplished the following tasks:",
