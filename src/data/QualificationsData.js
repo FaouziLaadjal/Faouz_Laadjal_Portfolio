@@ -6,7 +6,7 @@ export const experience = [
     place: "Inter Entreprise | Rouiba, Algiers, Algeria.",
     discription:
     "During my various assignments within different projects, I have accomplished the following tasks:",
-    skills: ["Inspection of the control section of electrical cabinets according to electrical diagrams, including identification and resolution of wiring issues.","Verification of inputs and outputs of various programmable logic controllers (PLCs), as well as conducting remote control tests from the PLC.","Analyzing the data to identify inefficiencies or weaknesses in the station and taking measures to optimize its performance and efficiency."],
+    skills: ["Inspection of the control section of electrical cabinets according to electrical diagrams,including identification and resolution of wiring issues.","Verification of inputs and outputs of various programmable logic controllers (PLCs), as well as conducting remote control tests from the PLC.","Development and programming of manual and automatic modes for different pumping stations using the Sofrel S550 remote management unit.","Development and programming of manual and automatic modes for different pumping stations using the Sofrel S550 remote management unit.","Installation, configuration, and parameterization of various measuring instruments, as well as Danfoss variable frequency drives.","Resolution of instrumentation and automation issues for the provisional and final acceptance of projects.","As part of the Ain Zada Treatment Plant project in Bordj Bou Arreridj S7-414-5H Redundant, I also performed the following tasks:","Diagnosis and resolution of communication and redundancy issues using Siemens Proneta and Step7 tools.","Design and implementation of a program for a filter washing cabinet, controlling and supervising multiple pumps, boosters, compressors, and valves.","Development of an HMI (Human-Machine Interface) with WinCC enabling effective visualization and control of equipment within the filter washing cabinet.","Successful remote testing and control from the PLC and HMI interface."],
   },
 {
     id:5,
@@ -20,7 +20,7 @@ export const experience = [
   {
     id: 4,
     title: "Internship Trainee",
-    date: "January 2022 - Present",
+    date: "Oct 2022 - Dec 2022",
     place: "Faderco | Les Eucalyptus, Algiers, Algeria.",
     discription:
     "Internship in a production plant and manufacturing of hygiene products, the objective was to:",
@@ -29,7 +29,7 @@ export const experience = [
   {
     id: 1,
     title: "Front End Developer",
-    date: "January 2022 - Present",
+    date: "Jan 2022 - Aug 2022",
     place: "Dosket | Bordj el kiffan, Algiers, Algeria.",
     discription:
     "Spent 8 months learning various web development skills , mainly:",
